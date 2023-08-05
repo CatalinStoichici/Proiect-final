@@ -11,16 +11,16 @@ const Navbar = () => {
         <img src="" alt="logo"></img>
       </div>
       <ul className="navbar-links">
-        <li className="p__timesnewroman">
+        <li className="p__opensans">
           <a href="#home">Home</a>
         </li>
-        <li className="p__timesnewroman">
+        <li className="p__opensans">
           <a href="#about">About</a>
         </li>
-        <li className="p__timesnewroman">
+        <li className="p__opensans">
           <a href="#menu">Menu</a>
         </li>
-        <li className="p__timesnewroman">
+        <li className="p__opensans">
           <a href="#contact">Contact</a>
         </li>
       </ul>
@@ -36,19 +36,19 @@ const Navbar = () => {
       <div className="navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)}/>
          {toggleMenu && (
-          <div className="navbar-smallscreen_overlay flex_center slide-bottom">
+          <div className="navbar-smallscreen_overlay flex__center slide-bottom">
           <MdOutlineRestaurantMenu fontSize={27} className="overlay_close" onClick={() => setToggleMenu(false)}/>
           <ul className="navbar-smallscreen_links">
-            <li className="p__timesnewroman">
+            <li className="p__opensans">
               <a href="#home">Home</a>
             </li>
-            <li className="p__timesnewroman">
+            <li className="p__opensans">
               <a href="#about">About</a>
             </li>
-            <li className="p__timesnewroman">
+            <li className="p__opensans">
               <a href="#menu">Menu</a>
             </li>
-            <li className="p__timesnewroman">
+            <li className="p__opensans">
               <a href="#contact">Contact</a>
             </li>
           </ul>
