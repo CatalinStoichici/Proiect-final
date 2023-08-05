@@ -4,6 +4,7 @@ import Header from './container/Header/Header';
 import './App.css';
 import './index.css';
 import AboutUs from './container/AboutUs/AboutUs';
+import SpecialMenu from './container/SpecialMenu/SpecialMenu';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Header/>
       <AboutUs />
+      <SpecialMenu />
     </div>
   );
 }
