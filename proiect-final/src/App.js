@@ -8,6 +8,9 @@ import SpecialMenu from './container/SpecialMenu/SpecialMenu';
 import Chef from './container/Chef/Chef';
 import Intro from './container/Intro/Intro';
 import Gallery from './container/Gallery/Gallery';
+import FindUs from './container/FindUs/FindUs';
+import Footer from './container/Footer/Footer';
+
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
       <Chef />
       <Intro />
       <Gallery />
+      <FindUs />
+      <Footer />
     </div>
   );
 }

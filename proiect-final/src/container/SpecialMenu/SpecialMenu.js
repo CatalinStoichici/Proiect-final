@@ -6,9 +6,9 @@ import  images  from '../../constant/image';
 
 import './SpecialMenu.css';
 const SpecialMenu = () => (
-      <div className="specialmenu flex__center section_padding">
+      <div className="specialmenu flex__center section_padding" id="menu">
         <div className="specialmenu-title">
-            <SubHeader title="Menu"/>
+            <SubHeader title="Menu in you palette"/>
             <h1 className="headtext__cormorant">Today's Special</h1>
         </div>
         <div className="specialmenu-menu">
