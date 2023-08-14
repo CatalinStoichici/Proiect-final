@@ -5,6 +5,9 @@ import './App.css';
 import './index.css';
 import AboutUs from './container/AboutUs/AboutUs';
 import SpecialMenu from './container/SpecialMenu/SpecialMenu';
+import Chef from './container/Chef/Chef';
+import Intro from './container/Intro/Intro';
+import Gallery from './container/Gallery/Gallery';
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <Header/>
       <AboutUs />
       <SpecialMenu />
+      <Chef />
+      <Intro />
+      <Gallery />
     </div>
   );
 }

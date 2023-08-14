@@ -1,0 +1,18 @@
+.chef-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top:  5rem;
+}
+
+.chef-content-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.chef-content-info img {
+    width: 45px;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
+}
